@@ -48,8 +48,38 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|150300000|60312800|554c5ab2-85b1-4429-966f-052b577021e3|9bd6fc16-9937-414f-a026-2daad2f7efd6",
+        "copper_edge_clearance|159900000|113285000|88fdb568-2aae-48d9-aca1-4f4725125d0a|a5a886b3-88ff-4ed8-93da-a2856ffa26be",
+        "copper_edge_clearance|159900000|43385000|88fdb568-2aae-48d9-aca1-4f4725125d0a|0edc5415-5576-4bbe-8d7b-39de1c12bd0d",
+        "copper_edge_clearance|159900000|60832800|88fdb568-2aae-48d9-aca1-4f4725125d0a|71f4610c-c77e-4309-acaa-ff3eac25b9c5",
+        "copper_edge_clearance|159900000|78285000|88fdb568-2aae-48d9-aca1-4f4725125d0a|433fcea0-a298-4985-9dd8-da4fb20a7596",
+        "copper_edge_clearance|159900000|95885000|88fdb568-2aae-48d9-aca1-4f4725125d0a|0b304bdc-18e5-4f37-8c50-adf98f97fa07",
+        "courtyards_overlap|118790001|108000001|1c299be8-c534-485c-b090-791148562a21|cb8ca4a3-7a7e-4c3a-98c5-966c6cba94ed",
+        "courtyards_overlap|118790001|38100001|343945cd-abf9-4cbe-943d-2a3203d4dc08|c4336258-efe0-4f5b-86bd-7b4b6f5e8cc0",
+        "courtyards_overlap|118790001|54942501|1c4d44b3-d745-4fc1-b174-41f27266d8b0|5e5aa7e2-ee8b-41cb-8703-eebac57a135f",
+        "courtyards_overlap|118790001|72900001|01137516-cad1-4879-9f20-346c7cff5c2c|a8d517f3-cdd6-409f-a74b-6f3f2f1be0c5",
+        "courtyards_overlap|118790001|90500001|493bac1f-a076-47d5-af4a-99292d8a4677|6bdb8a94-258a-4cc1-9311-69aa3e528cec",
+        "courtyards_overlap|118790001|95680001|493bac1f-a076-47d5-af4a-99292d8a4677|cb8ca4a3-7a7e-4c3a-98c5-966c6cba94ed",
+        "courtyards_overlap|119699999|68692499|01137516-cad1-4879-9f20-346c7cff5c2c|1c4d44b3-d745-4fc1-b174-41f27266d8b0",
+        "courtyards_overlap|119699999|86649999|6bdb8a94-258a-4cc1-9311-69aa3e528cec|a8d517f3-cdd6-409f-a74b-6f3f2f1be0c5",
+        "courtyards_overlap|148690001|107925001|f52ca468-1ef8-47fa-a71f-bf65de101e60|f96bbc61-e7ad-46d0-ad0e-44a20cd12b67",
+        "courtyards_overlap|148690001|38025001|310e21af-5356-45fa-bb7d-5c9737ffdc2a|bf050f5c-fcc9-4bc3-9eaa-ff676368798d",
+        "courtyards_overlap|148690001|55472801|1966043f-43fd-44c8-bbd9-f120da16eb3b|586e6749-aaa9-4ede-9030-3b55578e0b5d",
+        "courtyards_overlap|148690001|66880001|586e6749-aaa9-4ede-9030-3b55578e0b5d|78b18877-928a-4868-98b9-1f84ca513c43",
+        "courtyards_overlap|148690001|72925001|349764f3-ef0d-441b-9158-2baecb208a87|78b18877-928a-4868-98b9-1f84ca513c43",
+        "courtyards_overlap|148690001|81300001|349764f3-ef0d-441b-9158-2baecb208a87|8d5b002d-d436-4298-b6dc-f75b24d83c04",
+        "courtyards_overlap|148690001|90525001|0134dae7-7576-4fcd-ada9-693bc7c2c576|8d5b002d-d436-4298-b6dc-f75b24d83c04",
+        "courtyards_overlap|148690001|95750001|0134dae7-7576-4fcd-ada9-693bc7c2c576|f96bbc61-e7ad-46d0-ad0e-44a20cd12b67",
+        "via_dangling|114700000|112600000|613c71df-a76b-4d32-994d-72f6321c0edc|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -79,7 +109,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -112,8 +142,20 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 1.6,
+          "drill": 0.8
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -333,7 +375,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CVMixer.kicad_pro",
+    "filename": "MiniAttenuMix.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -348,6 +390,27 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "NEG_12V",
+          "POS_12V"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,

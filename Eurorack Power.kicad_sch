@@ -634,7 +634,7 @@
     (property "LCSC Part #" "C706914" (id 5) (at 27.94 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturers Name" "XKB Connectivity " (id 6) (at 27.94 38.1 0)
+    (property "Manufacturers Name" "XKB Connectivity" (id 6) (at 27.94 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturers Part Number" "X9555WV-2X05-6TV01" (id 7) (at 27.94 38.1 0)
