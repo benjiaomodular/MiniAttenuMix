@@ -10,6 +10,6 @@ A CV mixer with attenuverted inputs.
 ## v0.1 Initial Release
 - LED doesn't function properly
 
-## v0.2 LED Fix
+## v0.2 LED Fix (Unverified)
 - Moved wiring of LED to the output of first mixing stage (Pin 1 of U3)
 
