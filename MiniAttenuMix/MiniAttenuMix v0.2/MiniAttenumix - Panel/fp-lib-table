@@ -1,4 +1,0 @@
-
-(fp_lib_table
-  (lib (name "MiniAttenuMix")(type KiCad)(uri "$(KIPRJMOD)/MiniAttenuMix.pretty")(options "")(descr ""))
-)

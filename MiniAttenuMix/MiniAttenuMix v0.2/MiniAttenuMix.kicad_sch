@@ -1383,7 +1383,7 @@
   (symbol (lib_id "Device:R") (at 147.32 92.202 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0b1909f4-69bf-4c76-9b29-d55df5dae511)
-    (property "Reference" "R18" (id 0) (at 147.32 94.234 90))
+    (property "Reference" "R19" (id 0) (at 147.32 94.234 90))
     (property "Value" "1k" (id 1) (at 147.32 92.202 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 147.32 90.424 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1701,7 +1701,7 @@
   (symbol (lib_id "Device:R") (at 157.734 45.212 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5d37291e-4f28-4ec8-8e19-a9bdf88181d5)
-    (property "Reference" "R19" (id 0) (at 157.734 43.18 90))
+    (property "Reference" "R18" (id 0) (at 157.734 43.18 90))
     (property "Value" "100k" (id 1) (at 157.734 45.212 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 157.734 46.99 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1825,7 +1825,7 @@
   (symbol (lib_id "Device:R") (at 176.276 55.118 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 72e99c7d-55ab-410a-b5f7-1440e9934549)
-    (property "Reference" "R22" (id 0) (at 176.276 53.086 90))
+    (property "Reference" "R21" (id 0) (at 176.276 53.086 90))
     (property "Value" "1k" (id 1) (at 176.276 55.118 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 176.276 56.896 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1904,10 +1904,10 @@
   )
 
   (symbol (lib_id "Amplifier_Operational:TL074") (at 123.698 39.878 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 79acdfad-052c-4260-bf46-2ef4d3ab4879)
-    (property "Reference" "U3" (id 0) (at 123.698 29.21 0))
-    (property "Value" "TL074" (id 1) (at 123.698 31.75 0))
+    (property "Reference" "U3" (id 0) (at 123.698 32.766 0))
+    (property "Value" "TL074" (id 1) (at 123.698 34.544 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 122.428 42.418 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2057,7 +2057,7 @@
   (symbol (lib_id "Device:R") (at 172.212 99.314 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8b83dc9a-cab6-4341-ac90-b3ebfd256dba)
-    (property "Reference" "R20" (id 0) (at 174.244 99.314 90))
+    (property "Reference" "R22" (id 0) (at 174.244 99.314 90))
     (property "Value" "330" (id 1) (at 172.212 99.314 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 170.434 99.314 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2238,10 +2238,10 @@
   )
 
   (symbol (lib_id "Amplifier_Operational:TL074") (at 85.344 135.128 0) (mirror x) (unit 2)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid bcb32ec5-5ae1-4a49-980e-585ff40ed00a)
-    (property "Reference" "U3" (id 0) (at 85.344 124.46 0))
-    (property "Value" "TL074" (id 1) (at 85.344 127 0))
+    (property "Reference" "U3" (id 0) (at 85.598 128.524 0))
+    (property "Value" "TL074" (id 1) (at 85.598 130.302 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 84.074 137.668 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2587,7 +2587,7 @@
   (symbol (lib_id "Device:R") (at 176.276 39.878 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e663cc4e-e689-4acf-801f-a2158067730a)
-    (property "Reference" "R21" (id 0) (at 176.276 37.846 90))
+    (property "Reference" "R20" (id 0) (at 176.276 37.846 90))
     (property "Value" "1k" (id 1) (at 176.276 39.878 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 176.276 41.656 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2751,8 +2751,14 @@
   )
 
   (symbol_instances
-    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/7855a11f-00a8-40e9-8791-ef424d300ca8"
-      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/266e0162-9a8c-4352-b329-043c3b3fcd60"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/856079e6-cb8d-4e4a-8323-4bd43d76057e"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/ed941bee-6953-4bf2-9fb3-9202ad39e9b3"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/e9d916b3-b487-4293-820b-6be0daabdae8"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
@@ -2811,10 +2817,10 @@
     (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/c3b9f615-8769-46c0-b9b5-3d70562513fb"
       (reference "#PWR019") (unit 1) (value "-12V") (footprint "")
     )
-    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/f0c47c54-c94f-49c4-ac4e-3132ae4fcc66"
+    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/3249749f-33a7-4c50-b089-7eda4e31bb87"
       (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/56692e65-dc73-41d1-ad12-71cca6b2431a"
+    (path "/6ca3117d-41e9-4e67-b1ed-864340ef5fb2/fd6925d6-e461-4f37-ac76-35badc9263d9"
       (reference "C2") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/35bc48f8-46d0-43df-be1a-ee62c4051646"
@@ -2895,20 +2901,20 @@
     (path "/2e9881c7-2fa0-4e7d-bae1-87d4a4db03e3"
       (reference "R17") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/0b1909f4-69bf-4c76-9b29-d55df5dae511"
-      (reference "R18") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/5d37291e-4f28-4ec8-8e19-a9bdf88181d5"
-      (reference "R19") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R18") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/8b83dc9a-cab6-4341-ac90-b3ebfd256dba"
-      (reference "R20") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    (path "/0b1909f4-69bf-4c76-9b29-d55df5dae511"
+      (reference "R19") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/e663cc4e-e689-4acf-801f-a2158067730a"
-      (reference "R21") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R20") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/72e99c7d-55ab-410a-b5f7-1440e9934549"
-      (reference "R22") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R21") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/8b83dc9a-cab6-4341-ac90-b3ebfd256dba"
+      (reference "R22") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/f264f21d-5749-43d9-8e7e-3b86ad9cd4bf"
       (reference "RV1") (unit 1) (value "B10k") (footprint "benjiaomodular:Potentiometer_RV09")
